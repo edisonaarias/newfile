@@ -15,12 +15,18 @@ else:
 
 # while loop 
 
-age = 10 
-cant_drive = True
+#age = 10 
+#cant_drive = True
 
-while cant_drive is True:
-    if age == 16:
-        cant_drive = False
-        print("The wait is over! I can drive!")
-    else:
-        age += 1
+#while cant_drive is True:
+    #if age == 16:
+        #cant_drive = False
+        #print("The wait is over! I can drive!")
+    #else:
+        #age += 1
+
+# for loop 
+best_football_team = "packers"
+
+for character in best_football_team:
+    print(character)
