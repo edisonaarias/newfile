@@ -31,6 +31,6 @@ best_football_team = "packers"
 #print(best_football_team[2])
 
 for character in best_football_team:
-    print(character)
     if(character == 'c'):
-        break 
+        continue
+    print(character)
