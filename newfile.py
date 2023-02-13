@@ -11,3 +11,16 @@ elif(pet_name == "Rocky"):
     print("Super cool name!")
 else:
     print("That is not the name of one of my pets")
+
+
+# while loop 
+
+age = 10 
+cant_drive = True
+
+while cant_drive is True:
+    if age == 16:
+        cant_drive = False
+        print("The wait is over! I can drive!")
+    else:
+        age += 1
