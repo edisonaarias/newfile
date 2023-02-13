@@ -34,3 +34,10 @@ for character in best_football_team:
     if(character == 'c'):
         continue
     print(character)
+
+def add_two_numbers(number_one, number_two):
+    result = number_one + number_two
+    return result
+
+result_from_function = add_two_numbers(300, 200)
+print(result_from_function)
