@@ -41,3 +41,10 @@ def add_two_numbers(number_one, number_two):
 
 result_from_function = add_two_numbers(300, 200)
 print(result_from_function)
+
+def add_names(first_name, last_name):
+    result = first_name + last_name
+    return result 
+
+result_from_second_function = add_names("edison", "arias")
+print(result_from_second_function)
