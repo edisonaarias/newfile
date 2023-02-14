@@ -17,6 +17,7 @@ print(first_names)
 
 # popping a value 
 
-
+popped_element = first_names.pop()
+print(popped_element)
 
 # removing a value
