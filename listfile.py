@@ -21,3 +21,11 @@ popped_element = first_names.pop()
 print(popped_element)
 
 # removing a value
+
+first_names.remove('Mina')
+print(first_names)
+
+# looping over a list
+
+
+# list fuction example
