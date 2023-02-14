@@ -27,5 +27,7 @@ print(first_names)
 
 # looping over a list
 
+for first_name in first_names:
+    print(first_name)
 
 # list fuction example
