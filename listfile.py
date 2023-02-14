@@ -31,3 +31,14 @@ for first_name in first_names:
     print(first_name)
 
 # list fuction example
+
+def deternime_can_drive(list_of_ages):
+    amount_of_people = 0
+    for age in list_of_ages:
+        if age >= 16:
+            amount_of_people += 1
+    total_amount_of_people = len(list_of_ages)
+    print(f'{amount_of_people}/{total_amount_of_people} can drive.')
+
+ages = [16, 34, 13, 45, 12, 56]
+deternime_can_drive(ages)
