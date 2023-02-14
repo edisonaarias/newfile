@@ -9,3 +9,14 @@ print(first_names)
 # accessing a value
 element_at_second_index = first_names [2]
 print(element_at_second_index)
+
+# changing a value
+
+first_names [2] = 'Chaeyoung'
+print(first_names)
+
+# popping a value 
+
+
+
+# removing a value
