@@ -61,3 +61,6 @@ class Person:
 
 x = Person("John", "Doe")
 x.printname()
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
