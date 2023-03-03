@@ -72,14 +72,21 @@
 # else:
 #     print('Odd number')
     
-my_dict = {
-    'name': 'Tim', 
-    'name': 'John',
-    'nationality': 'South African',
-    'age': 87,
-    'is_tall': True,
-    'Qualification': 'College',
-    'friends': ['Peter', 'Paul', 'Precious']
-}
-x = my_dict['name']
-print(x)
+# my_dict = {
+#     'name': 'Tim', 
+#     'name': 'John',
+#     'nationality': 'South African',
+#     'age': 87,
+#     'is_tall': True,
+#     'Qualification': 'College',
+#     'friends': ['Peter', 'Paul', 'Precious']
+# }
+# x = my_dict['name']
+# print(x)
+
+my_list = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+]
+print(my_list)
