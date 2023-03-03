@@ -89,4 +89,6 @@ my_list = [
     [4, 5, 6],
     [7, 8, 9],
 ]
-print(my_list)
+for lists in my_list:
+    for row in lists:
+        print(row)
