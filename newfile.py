@@ -65,10 +65,21 @@
 # thislist = ["apple", "banana", "cherry"]
 # print(thislist)
 
-num = int(input('Enter a number:'))
+# num = int(input('Enter a number:'))
 
-if num%2 == 0:
-    print('Even number')
-else:
-    print('Odd number')
+# if num%2 == 0:
+#     print('Even number')
+# else:
+#     print('Odd number')
     
+my_dict = {
+    'name': 'Tim', 
+    'name': 'John',
+    'nationality': 'South African',
+    'age': 87,
+    'is_tall': True,
+    'Qualification': 'College',
+    'friends': ['Peter', 'Paul', 'Precious']
+}
+x = my_dict['name']
+print(x)
